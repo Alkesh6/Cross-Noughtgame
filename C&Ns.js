@@ -28,6 +28,7 @@ function getbox(num) {
 
 function checkmove(a, b, c, m) {
     if (getbox(a) == m && getbox(b) == m && getbox(c) == m) {
+        alert('Game Over!! Refresh to play again');
         return true;
     }
     else {
